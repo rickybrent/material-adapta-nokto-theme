@@ -1,8 +1,7 @@
 {
 	"manifest_version": 2,
-
-	"name": "Material Incognito Dark Theme",
-	"description": "A theme that adds the dark Incognito Mode colour scheme to the normal mode of Chrome.",
+	"name": "Material Adapta-Nokto-ish Theme",
+	"description": "A theme that uses similar colors to the adapta-nokto gtk theme in Chrome, modified for greater contrast with the active tab.",
 	"version": "3.0.1",
 
 	"theme": {
@@ -11,22 +10,30 @@
 			"theme_toolbar": "images/theme_toolbar.png",
 			"theme_tab_background": "images/theme_tab_background.png",
 			"theme_tab_background_incognito": "images/theme_tab_background.png",
-			"theme_tab_background_v": "images/theme_tab_background.png"
+			"theme_tab_background_v": "images/theme_tab_background.png",
+			"theme_frame": "images/theme_frame.png",
+			"theme_frame_inactive": "images/theme_frame.png",
+			"theme_frame_incognito": "images/theme_frame.png",
+			"theme_frame_incognito_inactive": "images/theme_frame.png"
 		},
 		"colors": {
-			"frame": [40, 43, 45],
-			"frame_inactive": [56, 59, 61],
-			"frame_incognito": [40, 43, 45],
-			"frame_incognito_inactive": [56, 59, 61],
-			"toolbar": [80, 80, 80],
-			"tab_text": [255, 255, 255],
-			"tab_background_text": [255, 255, 255],
-			"bookmark_text": [255, 255, 255],
-			"ntp_background": [48, 48, 48],
-			"ntp_text": [255, 255, 255]
+			"frame": [34, 45, 50],
+			"frame_inactive": [34, 45, 50],
+			"frame_incognito": [34, 45, 50],
+			"frame_incognito_inactive": [34, 45, 50],
+			"toolbar":  [38, 50, 56],
+			"tab_text": [207, 216, 220],
+			"tab_background_text": [120, 130, 134],
+			"bookmark_text": [207, 216, 220],
+			"ntp_background": [41, 53, 59],
+			"ntp_text": [185, 195, 199]
 		},
 		"tints": {
-			"buttons": [0, 0, 0.85]
+			"buttons": [0, 0, 0.85],
+			"frame": [-1, -1, -1],
+                        "frame_inactive": [-1, -1, -1],
+                        "frame_incognito": [-1, -1, -1],
+                        "frame_incognito_inactive": [-1, -1, -1]
 		},
 		"properties": {
 			"ntp_logo_alternate": 1,

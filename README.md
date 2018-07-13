@@ -1,22 +1,12 @@
-# Material Incognito Dark Theme
-A theme that adds the dark Incognito Mode colour scheme to the normal mode of Chrome.
+# Material Adapta Nokto Theme
+A theme that uses similar colors to the adapta-nokto gtk theme in Chrome, modified for greater contrast with the active tab.
 
-Incognito mode currently uses a dark colour scheme to distinguish it from normal mode. This theme imitates that colour scheme and applies it throughout the whole browser.
-
-### Installation
-Install the theme from the Chrome Web Store [here](https://chrome.google.com/webstore/detail/material-incognito-dark-t/ahifcnpnjgbadkjdhagpfjfkmlapfoel).
+Not affiliated with the actual adapta gtk theme.
 
 ### Github
-This theme is fully open-source under the Apache License. Check out the source code on [Github](https://github.com/Fiddle-N/material-incognito-dark-theme/).
+This theme is fully open-source under the Apache License. Check out the source code on [Github](https://github.com/rickybrent/material-adapta-nokto-theme).
 
-### Limitations
-All elements of the official Incognito mode dark colour scheme have been ported over where possible. Unfortunately, Chrome bugs and limitations mean that I can't reproduce it with 100% full-fidelity. These are as follows:
+It was forked from Fiddle-N's [material-incognito-dark-theme](https://github.com/Fiddle-N/material-incognito-dark-theme).
 
-1. The URL bar cannot be coloured and must stay white. 
-
-Chrome theme devs currently have no ability to colour the address bar.
-
-2. The bookmark bar colour is a lighter grey when compared to the official Incognito mode dark colour scheme. 
-
-This is for a couple of reasons. Firstly, choosing a darker colour messes up the Incognito mode guy colour in the top left corner. Secondly, the colours of the bookmark bar, the download bar and the status bar that appears when hovering over a link are tied to each other. The status bar colour is currently accurate, but the bookmark bar colour cannot be made accurate without making the status bar colour inaccurate and vice versa. This catch-22 situation is why the bookmark bar colour is currently inaccurate.
+Colors are based on the adapta-nokto theme, also available on [Github](https://github.com/adapta-project/adapta-gtk-theme)
 
